@@ -1,50 +1,84 @@
-# React + TypeScript + Vite
+# **AJackus Frontend Assignment**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### **Made by Sagar Kapoor**
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## **Live Link**
+Visit the live version of the project here: [AJackus Assignment 2](https://ajackus-assignment2.netlify.app/)
 
-## Expanding the ESLint configuration
+## **GitHub Repository**
+Access the source code here: [AJackus Assignment Repository](https://github.com/SagarKapoorin/AJackus-Assignment)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## **Technologies Used**
+- **React**: For building the user interface.
+- **Tailwind CSS**: For styling.
+- **React Router**: For navigation and routing.
+- **Pagination**: Implemented for handling large datasets efficiently.
+- **Lazy Loading**: To improve performance by loading components as needed.
+- **Error Management**: Proper error handling for better user experience.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## **Setup Instructions**
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Follow these steps to set up and run the project locally:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/SagarKapoorin/AJackus-Assignment.git
+   cd AJackus-Assignment
+   ```
+
+2. **Install Dependencies**:
+   Install the required npm packages by running:
+   ```bash
+   npm install
+   ```
+
+3. **Start the Development Server**:
+   Launch the application in development mode:
+   ```bash
+   npm start
+   ```
+   The application will be available at `http://localhost:3000/`.
+
+4. **Build for Production**:
+   To create an optimized production build, run:
+   ```bash
+   npm run build
+   ```
+   This will generate the `build` folder containing the production-ready app.
+
+---
+
+## **Features**
+
+1. **Error Management**:
+   - Handles unexpected errors gracefully to ensure the application remains functional.
+
+2. **Pagination**:
+   - Efficiently manages large datasets by dividing them into smaller, more manageable pages.
+
+3. **Lazy Loading**:
+   - Improves performance by loading components and resources only when needed.
+
+4. **Readable Code**:
+   - Inline comments and adequately named variables are used to enhance code readability.
+
+---
+
+## **Future Enhancements**
+
+Given more time, the following improvements will be made:
+
+1. **State Management with Redux**:
+   - Implement Redux for centralized state management.
+
+2. **Further Optimization**:
+   - Utilize Redux Thunk and Saga for asynchronous operations.
+
+3. **Enhanced Design**:
+   - Improve the overall UI/UX with better layouts and additional design elements.
