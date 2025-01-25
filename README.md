@@ -82,3 +82,5 @@ Given more time, the following improvements will be made:
 
 3. **Enhanced Design**:
    - Improve the overall UI/UX with better layouts and additional design elements.
+4. **Make Adding User Permanent**
+   - will make use of redux and local storage to add new user addition change permanent.
