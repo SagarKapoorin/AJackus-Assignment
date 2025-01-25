@@ -19,7 +19,7 @@ Access the source code here: [AJackus Assignment Repository](https://github.com/
 - **Pagination**: Implemented for handling large datasets efficiently.
 - **Lazy Loading**: To improve performance by loading components as needed.
 - **Error Management**: Proper error handling for better user experience.
-
+- **Responsive Design**:Had Responsive Design.
 ---
 
 ## **Setup Instructions**
